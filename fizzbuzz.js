@@ -29,6 +29,6 @@ $(document).ready(function () {
             }
         }
     }
-    var integer = parseInt(prompt("Please enter a number."), 10);
+    var integer = parseInt(prompt("Please enter a number."), 0);
     callCounter(integer);
 });
